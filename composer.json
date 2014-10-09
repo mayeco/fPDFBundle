@@ -1,0 +1,30 @@
+{
+    "name": "mayeco/google-bundle",
+    "license": "MIT",
+    "type": "symfony-bundle",
+    "description": "fPDF Bundle for Symfony2",
+    "keywords": ["google api"],
+    "homepage": "https://github.com/mayeco/fPDFBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mario Young",
+            "email": "yo@maye.co"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "autoload": {
+        "psr-0" : {
+            "FPDF" : "lib/",
+            "Mayeco\\fPDFBundle": ""
+        }
+    },
+    "target-dir": "Mayeco/fPDFBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
