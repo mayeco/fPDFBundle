@@ -1,6 +1,6 @@
 parameters:
     fpdf.core.class: FPDF
-    fpdf.factory.class: \Mayeco\fPDFBundle\Factory\fPDFFactory
+    fpdf.factory.class: Mayeco\fPDFBundle\Factory\fPDFFactory
 
 services:
     fpdf:
