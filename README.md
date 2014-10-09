@@ -1,7 +1,7 @@
 FPDF Bundle
 ==========
 
-Easy wrapper Bundle for http://www.fpdf.org library.
+Easy wrapper Bundle for http://www.fpdf.org version 1.7 (2011-06-18) library.
 
 ## Step 1
 
