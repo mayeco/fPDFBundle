@@ -17,7 +17,7 @@ Enable the Bundle in your Kernel
 
 ## Step 3
 
-Use the FPDF library.
+Use the FPDF library in your controller
 
     $pdf = $this->get("fpdf");
     // $pdf is a \FPDF v1.7 (2011-06-18) object
