@@ -1,0 +1,9 @@
+parameters:
+    fpdf.core.class: FPDF
+    fpdf.factory.class: \Mayeco\fPDFBundle\Factory\fPDFFactory
+
+services:
+    fpdf:
+        class:              "%fpdf.core.class%"
+        factory_class:      "%fpdf.factory.class%"
+        factory_method:     get
