@@ -1,5 +1,5 @@
 {
-    "name": "mayeco/google-bundle",
+    "name": "mayeco/fpdf-bundle",
     "license": "MIT",
     "type": "symfony-bundle",
     "description": "fPDF Bundle for Symfony2",
