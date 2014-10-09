@@ -17,9 +17,11 @@
     },
     "autoload": {
         "psr-0" : {
-            "FPDF" : "lib/",
             "Mayeco\\fPDFBundle": ""
-        }
+        },
+        "classmap": [
+            "lib/"
+        ]
     },
     "target-dir": "Mayeco/fPDFBundle",
     "extra": {
