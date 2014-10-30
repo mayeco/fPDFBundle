@@ -10,5 +10,10 @@ class fPDFFactory
 
         return new \FPDF();
     }
+
+    public static function getHtml() {
+
+        return new \FPDFHTML();
+    }
     
 }
