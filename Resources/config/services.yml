@@ -1,5 +1,6 @@
 parameters:
     fpdf.core.class: FPDF
+    fpdf.html.class: FPDFHTML
     fpdf.factory.class: Mayeco\fPDFBundle\Factory\fPDFFactory
 
 services:
@@ -7,3 +8,8 @@ services:
         class:              "%fpdf.core.class%"
         factory_class:      "%fpdf.factory.class%"
         factory_method:     get
+
+    fpdf.html:
+        class:              "%fpdf.html.class%"
+        factory_class:      "%fpdf.factory.class%"
+        factory_method:     getHtml
